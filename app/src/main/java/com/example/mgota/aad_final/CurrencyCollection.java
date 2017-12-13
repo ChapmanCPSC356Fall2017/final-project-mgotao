@@ -15,7 +15,7 @@ public class CurrencyCollection {
     private ArrayList<CurrencyModel> myCollection = new ArrayList<>();
 
     private CurrencyCollection(){
-        currencyList.add("USD");
+        currencyList.add("USD");    currencyList.add("EUR");
         currencyList.add("JPY");    currencyList.add("BGN");
         currencyList.add("CZK");    currencyList.add("DKK");
         currencyList.add("GBP");    currencyList.add("HUF");

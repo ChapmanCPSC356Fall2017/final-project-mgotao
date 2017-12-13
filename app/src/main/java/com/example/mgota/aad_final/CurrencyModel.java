@@ -30,6 +30,7 @@ public class CurrencyModel {
     public void findName(String code) {
         switch(code){
             case "USD": this.name = "US Dollar"; break;
+            case "EUR": this.name = "Union Euro"; break;
             case "JPY": this.name = "Japanese Yen"; break;
             case "BGN": this.name = "Bulgarian Lev"; break;
             case "CZK": this.name = "Czech Koruna"; break;

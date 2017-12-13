@@ -59,6 +59,7 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.ViewHo
             this.myCode = curr.getCode();
             switch(myCode){
                 case "USD": this.pic.setImageResource(R.drawable.ic_list_country_us); break;
+                case "EUR": this.pic.setImageResource(R.drawable.ic_list_country_eu); break;
                 case "JPY": this.pic.setImageResource(R.drawable.ic_list_country_jp); break;
                 case "BGN": this.pic.setImageResource(R.drawable.ic_list_country_bg); break;
                 case "CZK": this.pic.setImageResource(R.drawable.ic_list_country_cz); break;
